@@ -48,7 +48,7 @@ function App() {
                     </div>
                 </div>
 
-                <div className="flex gap-8 mt-10">
+                <div className="flex gap-8 mt-10 flex-wrap">
 
 
                   {

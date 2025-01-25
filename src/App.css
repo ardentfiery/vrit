@@ -17,13 +17,31 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.clickme{
+  opacity:0;
+  transition: all .4s ease-in-out;
+}
+.hoverplus{
+  transition: all .4s ease-in-out;
+}
+.clickmewrapper:hover .hoverplus{
+  top: -20px;
+  right:30px;
+}
+
+.clickmewrapper:hover .clickme{
+visibility: visible;
+opacity: 1;
+
+
+}
 
 @keyframes horizontalmove{
   from{translate: 0 0;}
   to{translate: 15px 0;}
 }
-.course-arrow-container:hover .arrowanimation{
-  animation: horizontalmove 1s alternate infinite linear;
+ .arrowanimation{
+  animation: horizontalmove .8s alternate infinite linear;
 }
 
 @keyframes logo-spin {
