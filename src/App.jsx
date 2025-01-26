@@ -64,6 +64,8 @@ function App() {
                                 detail={course.detail}
                                 number={course.number}
                                 setClicked={setClicked}
+                                index={index}
+                                clicked={clicked}
                                 />
                                 
                               ) : 
@@ -73,6 +75,7 @@ function App() {
                                   number={course.number}
                                   setClicked={setClicked}
                                   index={index}
+                                  clicked={clicked}
                                   />)
                         }  
                         </>
