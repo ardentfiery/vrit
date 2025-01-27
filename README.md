@@ -1,12 +1,19 @@
 # Steps To Run
  1. Clone the git repo
-    <clipboard-copy for="my-command">`https://github.com/ardentfiery/vrit.git`</clipboard-copy>
+    ```sh 
+    https://github.com/ardentfiery/vrit.git
+    ```
  2. Change directory to the project folder
-    <clipboard-copy for="my-command">`cd vrit`</clipboard-copy>
+    ```sh
+    cd vrit
+    ```
  3. Install dependencies
-    <clipboard-copy for="my-command">`npm install`</clipboard-copy>
- 4. Run Project
-    <clipboard-copy for="my-command">`npm run dev`</clipboard-copy>
-
+    ```sh
+    npm install
+    ```
+ 5. Run Project
+    ```sh
+    npm run dev
+    ```
 # Demo Link
   [Click Me for live link](https://vrittask.netlify.app/)
