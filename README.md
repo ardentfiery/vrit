@@ -1,10 +1,12 @@
-# React + Vite
+# Steps To Run
+ 1. Clone the git repo
+    <clipboard-copy for="my-command">`https://github.com/ardentfiery/vrit.git`</clipboard-copy>
+ 2. Change directory to the project folder
+    <clipboard-copy for="my-command">`cd vrit`</clipboard-copy>
+ 3. Install dependencies
+    <clipboard-copy for="my-command">`npm install`</clipboard-copy>
+ 4. Run Project
+    <clipboard-copy for="my-command">`npm run dev`</clipboard-copy>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-#live video
-[click below for a live video](https://vrittask.netlify.app/)
+# Demo Link
+  [Click Me for live link](https://vrittask.netlify.app/)
